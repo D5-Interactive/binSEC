@@ -1,8 +1,21 @@
 # BlockSEC
   - ! WARNING - Be sure to choose the "Client" mrpack file unless youre hosting a local server (not LAN) off your machine!
-## Description
-**Industrial automation meets programmable security.** Build mechanical empires with Create, AE2 & Mekanism. Code defenses with CC:Tweaked & SecurityCraft. Engineer, automate, defend.
+## Performance Recommendations
+### Client
 
+RAM: 6-8GB allocated
+Shaders: Complementary or BSL recommended
+Render Distance: 12-16 chunks
+
+### Server
+
+RAM: 8-12GB for 10-20 players
+CPU: Modern multi-core recommended
+Pregeneration: 5000 block radius minimum
+Backups: Use scheduled backups (not included)
+
+### License
+Individual mods retain their respective licenses.
 ## Technology & Automation
 
 ### Create Ecosystem
