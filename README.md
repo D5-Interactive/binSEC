@@ -1,5 +1,5 @@
 # BlockSEC
-  - ! WARNING - "blockSEC_S.mrpack" is the SERVER pack (client-side mods removed) and "blockSEC_C.mrpack" is the CLIENT pack.
+  - ! WARNING - Be sure to choose the "Client" mrpack file unless youre hosting a local server (not LAN) off your machine!
 ## Description
 **Industrial automation meets programmable security.** Build mechanical empires with Create, AE2 & Mekanism. Code defenses with CC:Tweaked & SecurityCraft. Engineer, automate, defend.
 
