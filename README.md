@@ -1,5 +1,5 @@
 # BlockSEC
-  - ! WARNING - Be sure to choose the "Client" mrpack file unless youre hosting a local server (not LAN) off your machine!
+
 ## Performance Recommendations
 ### Client
 
