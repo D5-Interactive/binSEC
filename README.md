@@ -1,4 +1,4 @@
-# BlockSEC
+# binSEC
 
 To play singleplayer or join a server, download the CLIENT .mrpack file, instal PRISM MODDED LAUNCHER; import the .mrpack - input the IP into the address section when "Adding server" in the multiplayer menu.
 6-8GB ram dedicated minimum
