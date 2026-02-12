@@ -1,4 +1,4 @@
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7028090e-4cdb-4852-98f4-a1a3b0a01dee" /># binSEC
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7028090e-4cdb-4852-98f4-a1a3b0a01dee" />
 
 - **Prism launcher:** [ https://prismlauncher.org/ ]
 
