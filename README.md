@@ -1,5 +1,6 @@
 # binSEC
 
+
 To play singleplayer or join a server, download the CLIENT .mrpack file, instal PRISM MODDED LAUNCHER; import the .mrpack - input the IP into the address section when "Adding server" in the multiplayer menu.
 6-8GB ram dedicated minimum
 
@@ -23,3 +24,4 @@ Backups: Use scheduled backups (not included)
 
 
 *For issues, updates, or contributions, visit the ISSUES page of this repo.*
+![server-ico](https://github.com/user-attachments/assets/5bf0040c-f41c-4a82-99a5-17d714a3612f)
