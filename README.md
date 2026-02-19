@@ -2,9 +2,9 @@
 
 - **Prism launcher:** [ https://prismlauncher.org/ ]
 
-- **To play,** download the CLIENT **.mrpack** file, install PRISM MODDED LAUNCHER; import the .mrpack - input the IP into the address section when "Adding server" in the multiplayer menu.
-6-8GB ram dedicated minimum.
-
+- **To play,** download the **" BINSEC.ZIP "** file, install PRISM MODDED LAUNCHER; import the modpack zip - allow download and install before attempting to launch.
+- **Be sure to login to your Minecraft (Microsoft) account in the PRISM launcher!** - Otherwise, you'll be unable to join the server.
+- **8GB DEDEICATED RAM IS REQUIRED**
 
 ## Performance Recommendations
 ### Client
