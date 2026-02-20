@@ -1,11 +1,3 @@
--- ============================================
--- CC:Tweaked Slideshow Engine v3.0
--- Media-enabled presentation system
--- ============================================
-
--- ============================================
--- CONFIGURATION
--- ============================================
 
 local CONFIG = {
     monitorSide = "back",
@@ -17,9 +9,6 @@ local CONFIG = {
     counterColor = colors.gray,
 }
 
--- ============================================
--- CORE STATE
--- ============================================
 
 local monitor, WIDTH, HEIGHT
 local currentSlide = 1
@@ -32,9 +21,6 @@ local stopPlayback = false     -- signal to kill media animation
 -- Load slidelib module (must be in same directory)
 local slidelib
 
--- ============================================
--- MONITOR INIT
--- ============================================
 
 local function initMonitor()
     monitor = peripheral.wrap(CONFIG.monitorSide)
@@ -46,9 +32,7 @@ local function initMonitor()
     return monitor
 end
 
--- ============================================
--- DRAWING HELPERS
--- ============================================
+
 
 local Draw = {}
 
@@ -286,9 +270,7 @@ local function loadSlides()
     return #slides
 end
 
--- ============================================
--- SLIDE ENVIRONMENT
--- ============================================
+
 
 local function createSlideEnv()
     return setmetatable({
@@ -325,9 +307,7 @@ local function createSlideEnv()
     }, {__index = _G})
 end
 
--- ============================================
--- MEDIA RESOLUTION
--- ============================================
+
 
 local function normalizeMedia(raw)
     if raw == nil then return {} end
@@ -360,9 +340,7 @@ local function getMediaForSlide(slideIndex)
     return result
 end
 
--- ============================================
--- RENDERING
--- ============================================
+
 
 local function renderInfoSlide()
     monitor.setBackgroundColor(CONFIG.defaultBg)
@@ -458,9 +436,7 @@ local function renderMediaSlide(mediaDef)
     end
 end
 
--- ============================================
--- SLIDE COUNTER
--- ============================================
+
 
 local function drawCounter()
     local mediaList = getMediaForSlide(currentSlide)
@@ -478,9 +454,7 @@ local function drawCounter()
     monitor.write(counterText)
 end
 
--- ============================================
--- ANIMATION PLAYBACK
--- ============================================
+
 
 local function animateBimg(data, loop)
     while true do
@@ -511,9 +485,7 @@ local function animate32vid(data, loop)
     end
 end
 
--- ============================================
--- NAVIGATION
--- ============================================
+
 
 local function getMediaCount(slideIdx)
     return #getMediaForSlide(slideIdx)
@@ -540,9 +512,7 @@ local function goPrev()
     end
 end
 
--- ============================================
--- TOUCH HANDLER (shared logic)
--- ============================================
+
 
 local function handleTouch(x)
     local leftZone = math.floor(WIDTH / 3)
@@ -555,9 +525,7 @@ local function handleTouch(x)
     return nil
 end
 
--- ============================================
--- MAIN RENDER + EVENT LOOP
--- ============================================
+
 
 local function renderCurrent()
     stopPlayback = true
@@ -622,9 +590,7 @@ local function renderCurrent()
     end
 end
 
--- ============================================
--- MAIN
--- ============================================
+
 
 local function main()
     print("Initializing slideshow...")
@@ -666,3 +632,4 @@ local function main()
 end
 
 main()
+
