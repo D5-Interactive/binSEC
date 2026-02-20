@@ -4,7 +4,7 @@
 
   - CCT+Mekanism SCADA Software: [https://youtu.be/oUMdkH70vK0?t=70]
   - CC:C Bridge Animatronics: [https://youtu.be/MI_tHMHrAY0]
-
+  - Lua in 100 Seconds: [https://www.youtube.com/watch?v=jUuqBZwwkQw]
 ## **v UTILS v**
   
   - Awesome ComputerCraft (List of cool CC scripts, operating systems, utils, and more):
