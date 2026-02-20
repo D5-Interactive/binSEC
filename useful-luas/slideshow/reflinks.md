@@ -1,11 +1,11 @@
-# REF
-**v SHOWCASE v**
----
+# QUICKREFS
+
+## **v SHOWCASE v**
+
   - CCT+Mekanism SCADA Software: [https://youtu.be/oUMdkH70vK0?t=70]
   - CC:C Bridge Animatronics: [https://youtu.be/MI_tHMHrAY0]
----
-***v UTILS v***
----
+
+## **v UTILS v**
   
   - Awesome ComputerCraft (List of cool CC scripts, operating systems, utils, and more):
   	[https://github.com/tomodachi94/awesome-computercraft/blob/main/README.md]
