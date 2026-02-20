@@ -1,44 +1,23 @@
--- Slide 1: Title Slide
--- At 0.5 scale, a 7x5 monitor is approximately 98x50 characters
+-- Slide 1: Welcome / Agenda
 
-monitor.setBackgroundColor(colors.blue)
-monitor.clear()
+clear(colors.blue)
 
--- Title
-monitor.setCursorPos(2, 3)
-monitor.setBackgroundColor(colors.lightBlue)
-monitor.setTextColor(colors.white)
-monitor.write("  SLIDESHOW DEMO  ")
+title(2, "BINSEC WORKSHOP #1", colors.white, colors.cyan)
+center(4, "~ Cybersecurity Basics with Lua in CC:T ~", colors.yellow)
+hline(3, 6, W - 4, "-", colors.lightBlue)
 
--- Subtitle
-monitor.setBackgroundColor(colors.blue)
-monitor.setCursorPos(2, 6)
-monitor.setTextColor(colors.yellow)
-monitor.write("CC: Tweaked Presentation")
+local y = 8
+text(3, y, " 1.", colors.cyan)  text(7, y, "What is CC:Tweaked?", colors.white)              y=y+1
+text(3, y, " 2.", colors.cyan)  text(7, y, "The CraftOS Shell", colors.white)                 y=y+1
+text(3, y, " 3.", colors.cyan)  text(7, y, "Lua Syntax Crash Course", colors.white)           y=y+1
+text(3, y, " 4.", colors.cyan)  text(7, y, "Filesystem API", colors.white)                    y=y+1
+text(3, y, " 5.", colors.cyan)  text(7, y, "Peripherals & Mods", colors.white)                y=y+1
+text(3, y, " 6.", colors.cyan)  text(7, y, "Redstone API", colors.white)                      y=y+1
+text(3, y, " 7.", colors.cyan)  text(7, y, "Networking Deep-Dive", colors.white)               y=y+1
+text(3, y, " 8.", colors.cyan)  text(7, y, "Network Architecture", colors.white)               y=y+1
+text(3, y, " 9.", colors.cyan)  text(7, y, "Lab: Basic Security Tool", colors.yellow)          y=y+1
+text(3, y, "10.", colors.cyan)  text(7, y, "Lab: Packet Sniffer", colors.yellow)               y=y+1
+text(3, y, "11.", colors.cyan)  text(7, y, "Lab: Password Cracker", colors.yellow)             y=y+1
+text(3, y, "12.", colors.cyan)  text(7, y, "Lab: Wireless Turtle + Dashboard", colors.yellow)
 
--- Divider line
-monitor.setCursorPos(2, 8)
-monitor.setTextColor(colors.cyan)
-monitor.write(string.rep("-", 26))
-
--- Instructions
-monitor.setCursorPos(2, 11)
-monitor.setTextColor(colors.white)
-monitor.write("Click ")
-monitor.setTextColor(colors.lime)
-monitor.write("RIGHT")
-monitor.setTextColor(colors.white)
-monitor.write(" side to advance")
-
-monitor.setCursorPos(2, 13)
-monitor.setTextColor(colors.white)
-monitor.write("Click ")
-monitor.setTextColor(colors.orange)
-monitor.write("LEFT")
-monitor.setTextColor(colors.white)
-monitor.write(" side to go back")
-
--- Footer accent
-monitor.setCursorPos(2, HEIGHT - 2)
-monitor.setTextColor(colors.lightGray)
-monitor.write("NeoForge 1.21.1")
+footer("UTSA Cyber Jedis  |  NeoForge 1.21.1", colors.lightGray)

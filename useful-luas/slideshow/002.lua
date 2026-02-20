@@ -1,54 +1,18 @@
--- Slide 2: Features Demo
--- Demonstrates colored text and formatting
+-- Slide 2: What is CC:Tweaked?
 
-monitor.setBackgroundColor(colors.black)
-monitor.clear()
+clear(colors.black)
+header("What is CC:Tweaked?", colors.white, colors.blue)
 
--- Header with accent bar
-monitor.setBackgroundColor(colors.purple)
-monitor.setCursorPos(1, 1)
-monitor.write(string.rep(" ", WIDTH))
-monitor.setCursorPos(3, 1)
-monitor.setTextColor(colors.white)
-monitor.write("FEATURES")
-monitor.setBackgroundColor(colors.black)
+local y = 4
+y = y + bullet(y, "Minecraft mod: programmable Lua computers, turtles, pocket PCs", colors.cyan) + 1
+y = y + bullet(y, "Fork of ComputerCraft, actively maintained for modern MC", colors.cyan) + 1
+y = y + bullet(y, "Runs real Lua 5.2 code inside the game world", colors.lime) + 1
+y = y + bullet(y, "Advanced Computers get color monitors and full event API", colors.lime) + 1
+y = y + bullet(y, "Turtles: mobile robots that mine, build, farm, and attack", colors.yellow) + 1
+y = y + bullet(y, "Pocket Computers: portable, player-carried terminals", colors.yellow) + 1
 
--- Color palette demo
-monitor.setCursorPos(2, 4)
-monitor.setTextColor(colors.yellow)
-monitor.write("* ")
-monitor.setTextColor(colors.white)
-monitor.write("Colored Text Support")
+y = y + 1
+text(3, y, "Why cybersec?", colors.orange) y = y + 1
+wrap(5, y, "CC:T gives you networking, filesystems, HTTP, peripherals, and scriptable hardware. Perfect sandbox for learning offensive and defensive security.", W - 8, colors.white)
 
-monitor.setCursorPos(2, 6)
-monitor.setTextColor(colors.lime)
-monitor.write("* ")
-monitor.setTextColor(colors.white)
-monitor.write("16 Available Colors")
-
-monitor.setCursorPos(2, 8)
-monitor.setTextColor(colors.cyan)
-monitor.write("* ")
-monitor.setTextColor(colors.white)
-monitor.write("Background Colors")
-
-monitor.setCursorPos(2, 10)
-monitor.setTextColor(colors.orange)
-monitor.write("* ")
-monitor.setTextColor(colors.white)
-monitor.write("0.5 Text Scale = More Space")
-
--- Color swatches
-monitor.setCursorPos(2, 13)
-monitor.setTextColor(colors.lightGray)
-monitor.write("Color palette:")
-
-local palette = {colors.red, colors.orange, colors.yellow, colors.lime, 
-                 colors.green, colors.cyan, colors.lightBlue, colors.blue, 
-                 colors.purple, colors.magenta, colors.pink}
-monitor.setCursorPos(2, 15)
-for i, c in ipairs(palette) do
-    monitor.setBackgroundColor(c)
-    monitor.write("  ")
-end
-monitor.setBackgroundColor(colors.black)
+footer("NeoForge 1.21.1 | CC:Tweaked", colors.gray)
