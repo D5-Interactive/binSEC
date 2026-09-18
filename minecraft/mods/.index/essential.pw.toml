@@ -1,0 +1,18 @@
+filename = 'Essential_1-5-0-1_fabric_26-1-2.jar'
+name = 'Essential Mod'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.0.1'
+
+[download]
+hash = 'a206abefd8bc5c00873c2144eb503b52a041b519b2d9405f40ad75b972048eac8cd81b9e1ae81ac1422cd1140a732b24f375c80201e52cb352fad01a11c6ef7b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/k2ZPuTBm/versions/CDJqeuBJ/Essential_1-5-0-1_fabric_26-1-2.jar'
+
+[update.modrinth]
+mod-id = 'k2ZPuTBm'
+version = 'CDJqeuBJ'

@@ -1,0 +1,21 @@
+filename = 'TerraBlender-fabric-26.1.2-26.1.2.0.3.jar'
+name = 'TerraBlender'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '26.1.2.0.3'
+
+[download]
+hash = '6007960450f30dcf3828ec6b704dfc877083a9bce7747da9473c790bfd9327cd4dbc20f8d0bba887bc48a23ef00d97c55ad4734befd510730ea4959c896a3260'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kkmrDlKT/versions/NIXt6lha/TerraBlender-fabric-26.1.2-26.1.2.0.3.jar'
+
+[update.modrinth]
+mod-id = 'kkmrDlKT'
+version = 'NIXt6lha'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

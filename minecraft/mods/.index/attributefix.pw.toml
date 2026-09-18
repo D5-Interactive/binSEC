@@ -1,0 +1,25 @@
+filename = 'AttributeFix-fabric-MC26.1.2-26.1.2.3.jar'
+name = 'AttributeFix'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.2.3'
+
+[download]
+hash = 'b64dfbcac1cccde363610b350cb13e7728a2c35151c3da76321ada3ab022dd043d3b2daa9ff1ccf19021aac52dc95ce232b5c81e08a10e9f195e96359d77c0ce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lOOpEntO/versions/5WbPg3Mm/AttributeFix-fabric-MC26.1.2-26.1.2.3.jar'
+
+[update.modrinth]
+mod-id = 'lOOpEntO'
+version = '5WbPg3Mm'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aaRl8GiW'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

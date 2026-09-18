@@ -1,0 +1,73 @@
+filename = 'travelersbackpack-fabric-26.1.2-11.2.10.jar'
+name = "Traveler's Backpack"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.2-11.2.10'
+
+[download]
+hash = 'eb441f122d86de02ac52b79862861cf8b778d350233086fdafe2724c70a23d9df4b3bf168420fb7205ff78fa1c6c346321a51e845a413cb41fc5ad699831639d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rlloIFEV/versions/Ah1lkxJY/travelersbackpack-fabric-26.1.2-11.2.10.jar'
+
+[update.modrinth]
+mod-id = 'rlloIFEV'
+version = 'Ah1lkxJY'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vRYk0bv7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HnD1GX6e'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XaT8sLP6'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'yn9u3ypm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SaCpeal4'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tagwiZkJ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'yBW8D80W'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jtmvUHXj'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nfn13YXA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DMu0oBKf'
+type = 'OPTIONAL'

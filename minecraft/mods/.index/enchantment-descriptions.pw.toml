@@ -1,0 +1,25 @@
+filename = 'EnchantmentDescriptions-fabric-MC26.1.2-26.1.2.6.jar'
+name = 'Enchantment Descriptions'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.2.6'
+
+[download]
+hash = '47591b96ad489bedd2bb329bd4de097c0b5a988e51e5a5ffa286196749d50ec4cc3d0accfcd2ad3306d3cc3e0054a87b79db8bd5441afc360f332768fae316e1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UVtY3ZAC/versions/AJzO4pYf/EnchantmentDescriptions-fabric-MC26.1.2-26.1.2.6.jar'
+
+[update.modrinth]
+mod-id = 'UVtY3ZAC'
+version = 'AJzO4pYf'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aaRl8GiW'
+type = 'REQUIRED'

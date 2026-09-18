@@ -1,0 +1,21 @@
+filename = 'cc-tweaked-26.1.2-fabric-1.120.0.jar'
+name = 'CC: Tweaked'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.120.0'
+
+[download]
+hash = 'ea4460b24da4795c2985d4f7c42e9454eb4490bf5e524b9b2fa9ac33d1b0b3434c112c60003a8d91ee99601092e5fbefe34568fae68c297aa6ddfa0b0d3adae3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gu7yAYhd/versions/D9kw3xjO/cc-tweaked-26.1.2-fabric-1.120.0.jar'
+
+[update.modrinth]
+mod-id = 'gu7yAYhd'
+version = 'D9kw3xjO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

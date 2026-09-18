@@ -1,0 +1,25 @@
+filename = 'Jade-mc26.1-Fabric-26.1.9.jar'
+name = 'Jade 🔍'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.9+fabric'
+
+[download]
+hash = '6b38ad22b3888057c619aeb89eaa78ade68c03dbba8d3758c65b32ad34471378cf222dc1b9108c3107d9739eeeb385476e760c14ccd68afde754660f63cedcce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nvQzSEkH/versions/fW2xykin/Jade-mc26.1-Fabric-26.1.9.jar'
+
+[update.modrinth]
+mod-id = 'nvQzSEkH'
+version = 'fW2xykin'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'

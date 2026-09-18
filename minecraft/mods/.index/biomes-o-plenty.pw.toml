@@ -1,0 +1,21 @@
+filename = 'BiomesOPlenty-fabric-26.1.2-26.1.2.0.22.jar'
+name = "Biomes O' Plenty"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.2.0.22'
+
+[download]
+hash = 'f61dee291676bcefb73ca42d4f98e2842ecfdd66ea0d527ee546d6b18442240f15ec42f5e8fe1fe9580523fbdb855a75c6b076cfcd2c4a433fcb38356f8fe922'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HXF82T3G/versions/8MVwdPgG/BiomesOPlenty-fabric-26.1.2-26.1.2.0.22.jar'
+
+[update.modrinth]
+mod-id = 'HXF82T3G'
+version = '8MVwdPgG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

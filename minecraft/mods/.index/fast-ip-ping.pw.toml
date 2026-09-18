@@ -1,0 +1,18 @@
+filename = 'fast-ip-ping-v1.0.11-mc26.1.2.jar'
+name = 'Fast IP Ping'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.0.11-mc26.1.2'
+
+[download]
+hash = 'a3172cf7c42c8c71c4fd38ff267233787320ff9a24b39fdac61df659d326ab3d13a5227dd3ee4d966080e31ccb922a8a27580931eaa003565f809f9e3399287e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9mtu0sUO/versions/H7KycYXE/fast-ip-ping-v1.0.11-mc26.1.2.jar'
+
+[update.modrinth]
+mod-id = '9mtu0sUO'
+version = 'H7KycYXE'

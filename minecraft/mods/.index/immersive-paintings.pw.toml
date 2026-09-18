@@ -1,0 +1,29 @@
+filename = 'immersive_paintings-fabric-26.1.2-0.7.8.jar'
+name = 'Immersive Paintings'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.7.8+26.1.2'
+
+[download]
+hash = 'b0bf75e61283ad539714106a13ff0abed59e25d0f1321cd4bb268778b4381426f4b8e4c8f958e15f6c9d4f1bde76a7623d2a6f47f0a862326a6be4d952aca61f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6txNkua3/versions/bq2JN6UC/immersive_paintings-fabric-26.1.2-0.7.8.jar'
+
+[update.modrinth]
+mod-id = '6txNkua3'
+version = 'bq2JN6UC'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hYykXjDp'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

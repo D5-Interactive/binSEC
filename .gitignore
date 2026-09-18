@@ -1,0 +1,16 @@
+# Runtime / user-specific content (regenerated or local-only)
+minecraft/.mixin.out/
+minecraft/crash-reports/
+minecraft/crash-reports-old/
+minecraft/data/
+minecraft/debug/
+minecraft/downloads/
+minecraft/dynamic-resource-pack-cache/
+minecraft/hs_err_pid*.log
+minecraft/logs/
+minecraft/options.txt
+minecraft/replay_recordings/
+minecraft/saves/
+minecraft/server-resources/
+minecraft/servers.dat
+minecraft/waylandcraft/

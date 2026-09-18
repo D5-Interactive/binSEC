@@ -1,0 +1,29 @@
+filename = 'debugify-26.1.2.2.jar'
+name = 'Debugify'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.2.2'
+
+[download]
+hash = '5b22b8c43216817020b051dc265c135bb22f44da03435c64b1cec9838a2ec3dfa2c49327711481943166fc57694d551c8fdb3d2c5aa23f4737eff9182b0bb5e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QwxR6Gcd/versions/AYdf2KSj/debugify-26.1.2.2.jar'
+
+[update.modrinth]
+mod-id = 'QwxR6Gcd'
+version = 'AYdf2KSj'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

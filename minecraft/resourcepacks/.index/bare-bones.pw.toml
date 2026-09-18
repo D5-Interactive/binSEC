@@ -1,0 +1,31 @@
+filename = 'Bare Bones 1.21.11.zip'
+name = 'Bare Bones'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.12'
+
+[download]
+hash = '268b578d6d34adaa2491572af4cabf65fab94edee00e688f5b4cb4f072c0620c492d58a4442769e6a889cd940cfe3c4a4fe65e5bb422b8e283ad174e32ceefb0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rox3U8B6/versions/jQBWn2Q3/Bare Bones 1.21.11.zip'
+
+[update.modrinth]
+mod-id = 'rox3U8B6'
+version = 'jQBWn2Q3'
