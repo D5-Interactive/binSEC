@@ -1,8 +1,6 @@
 # BINSEC Modpack
 
-A Fabric modpack for Minecraft Java Edition 26.1.2, maintained by D5-Interactive. This document is a micro-wiki for maintainers. It explains the repository layout, how to set up and run the instance, how to change memory and configs, what every mod does and where its config lives, how to update content, and how to use Git LFS correctly.
-
-No emojis, no long dashes, plain text only, so it renders cleanly everywhere.
+A Fabric modpack for Minecraft Java Edition 26.1.2, maintained by D5-Interactive. This document is a micro-wiki for pack / server maintainers.
 
 ## Table of Contents
 
